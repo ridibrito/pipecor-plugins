@@ -1,0 +1,8 @@
+{
+  "name": "pipecor",
+  "version": "0.1.0",
+  "description": "Conector MCP do PipeCor com procedimentos para corretoras: conciliação bancária e, aos poucos, os demais fluxos.",
+  "author": { "name": "PipeCor" },
+  "homepage": "https://app.pipecor.com",
+  "keywords": ["pipecor", "corretora", "comissões", "conciliação", "crm"]
+}
