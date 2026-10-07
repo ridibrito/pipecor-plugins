@@ -118,8 +118,8 @@ Casos:
 1. Some, por dia, as entradas e saídas conciliadas e compare com o saldo do
    extrato no fim de cada dia. Se o conector expõe operações do dono, use
    `financial.getCashFlow` via `pipecor_describe_operation` e
-   `pipecor_execute_operation`. Senão, peça ao usuário o saldo da tela
-   *Contas e conciliação* no último dia.
+   `pipecor_run_read_operation` (só leitura). Senão, peça ao usuário o saldo
+   da tela *Contas e conciliação* no último dia.
 2. Entregue um resumo com:
    - créditos conciliados (data, valor, parcela);
    - créditos sem par no PipeCor;

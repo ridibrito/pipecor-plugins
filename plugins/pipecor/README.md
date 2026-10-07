@@ -1,8 +1,22 @@
 # Plugin PipeCor
 
-Conecta o Claude ao PipeCor (`https://mcp.pipecor.com/mcp`, login OAuth da
-própria corretora). Também traz os procedimentos que o conector sozinho não
-ensina.
+O [PipeCor](https://pipecor.com) é o CRM e financeiro de corretoras de planos
+de saúde, seguros e consórcios. Este plugin conecta o Claude à conta PipeCor da
+corretora e traz os procedimentos que o conector sozinho não ensina, começando
+pela conciliação bancária das comissões recebidas das seguradoras e operadoras.
+
+## O que o plugin acessa
+
+- **Um único servidor:** o conector MCP do PipeCor, em
+  `https://mcp.pipecor.com/mcp`, autenticado por OAuth com o login da própria
+  corretora. As ferramentas respeitam as permissões de quem autorizou, e o
+  PipeCor confere a conta e as permissões a cada chamada.
+- **Nenhum código local:** o plugin não roda scripts nem hooks, não instala
+  pacotes e não envia dados a nenhum outro endereço. Skills e comandos são só
+  instruções em texto.
+- **Dados:** ficam no PipeCor. O plugin não guarda nada. Política de
+  privacidade: https://pipecor.com/politicas. Documentação do conector:
+  https://pipecor.com/documentacao/mcp.
 
 ## Instalação (Claude Code / Cowork)
 
