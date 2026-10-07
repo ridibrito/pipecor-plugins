@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.3 — 2026-10-07
+
+- Nome de exibição "PipeCor" e links de documentação, suporte e termos de
+  serviço na listagem do diretório.
+
 ## 0.1.2 — 2026-10-07
 
 - Ícone da listagem e política de privacidade no manifesto, para o diretório
