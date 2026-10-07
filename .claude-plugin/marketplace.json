@@ -1,0 +1,12 @@
+{
+  "name": "pipecor",
+  "owner": { "name": "PipeCor" },
+  "description": "Plugins oficiais do PipeCor para Claude Code e Cowork.",
+  "plugins": [
+    {
+      "name": "pipecor",
+      "source": "./plugins/pipecor",
+      "description": "Conector MCP do PipeCor com procedimentos para corretoras: conciliação bancária e, aos poucos, os demais fluxos."
+    }
+  ]
+}
