@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2 — 2026-10-07
+
+- Ícone da listagem e política de privacidade no manifesto, para o diretório
+  da Anthropic.
+
 ## 0.1.1 — 2026-10-07
 
 - Licença MIT e README com o que o plugin acessa, para o diretório da

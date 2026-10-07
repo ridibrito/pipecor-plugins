@@ -1,6 +1,6 @@
 {
   "name": "pipecor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Conector MCP do PipeCor com procedimentos para corretoras: conciliação bancária e, aos poucos, os demais fluxos.",
   "author": {
     "name": "PipeCor",
@@ -15,5 +15,6 @@
     "crm"
   ],
   "license": "MIT",
-  "repository": "https://github.com/ridibrito/pipecor-plugins"
+  "repository": "https://github.com/ridibrito/pipecor-plugins",
+  "privacyPolicyUrl": "https://pipecor.com/politicas"
 }
